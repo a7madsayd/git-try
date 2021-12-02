@@ -1,6 +1,6 @@
-function power(number , power)
+function power(number , p)
 {
-    if(power == 0) return 1;
-    return number * power(power-1);
+    if(p == 0) return 1;
+    return number * power(number,p-1);
 }
 module.exports = power;
