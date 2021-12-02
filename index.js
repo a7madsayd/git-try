@@ -9,7 +9,7 @@ function sayHi()
 
 
 
-
+console.log('the results is : ');
 console.log(`the value of index 4 in fibonanci series is ${fibonanci(4)}`);
 console.log(`the factorial of  4  is ${factorial(4)}`);
 console.log(sayHi());
