@@ -4,6 +4,7 @@ const power = require("./power");
 
 function sayHi() {
   return "Hi Geek!";
+
 }
 
 function sayGoodBye() {
