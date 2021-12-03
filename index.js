@@ -3,7 +3,7 @@ const factorial = require("./factorial");
 const power = require("./power");
 
 function sayHi() {
-  return "Hi!";
+  return "Hi Geek!";
 }
 
 function sayGoodBye() {
