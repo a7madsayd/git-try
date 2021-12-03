@@ -10,6 +10,7 @@ function sayHi() {
 function sayGoodBye() {
   return "Good Bye!";
 }
+console.log("test rebase");
 
 console.log("app start....");
 console.log(sayHi());
