@@ -1,5 +1,7 @@
 const fibonanci = require("./fibonanci");
 const factorial = require("./factorial");
+const binarySearch = require("./binarySearch");
+const naiveSearch = require("./naiveSearch");
 const power = require("./power");
 
 function sayHi() {
@@ -10,8 +12,11 @@ function sayHi() {
 function sayGoodBye() {
   return "Good Bye!";
 }
-console.log("test rebase");
 
+console.log(`binary search value is ${binarySearch([1,2,3,4,5,6,7,8,9,10,11,12] , 12)}`)
+console.log(`naiveSearch value is ${naiveSearch("ahmed sayed mohammed" , "ed")}`)
+console.log("test rebase");
+console.log("feature");
 console.log("app start....");
 console.log(sayHi());
 
